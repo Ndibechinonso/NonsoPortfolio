@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import Button from '../Button'
-import nonso from '../../nonso.jpg'
+import pic from '../../pic.png'
 
 export default function Intro(props) {
   return (
@@ -18,7 +18,7 @@ export default function Intro(props) {
           <Button className='contactButton' text='Get In Touch' link='#footer' />
         </div>
       </div>
-      <div className='imgDiv'><img src={nonso} /></div>
+      <div className='imgDiv'><img src={pic} /></div>
     </div>
   )
 }
