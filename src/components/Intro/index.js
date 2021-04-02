@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import Button from '../Button'
-import nonso from '../../nonso.png'
+import nonso from '../../nonso.jpg'
 
 export default function Intro(props) {
   return (
