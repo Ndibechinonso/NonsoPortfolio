@@ -1,0 +1,78 @@
+.portfolioContainer {
+  margin: 0 13% 10px;
+  padding: 20px;
+}
+.portfolioHeader {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+.experience {
+  margin-bottom: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+  margin-bottom: 100px;
+}
+.portfolioContainer p {
+  color: rgba(0, 0, 0, 0.7);
+}
+.linkButton {
+  padding: 15px 15px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.gitButton {
+  padding: 15px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+}
+.cardRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.cardRow a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.cardRow a:hover i {
+  color: rgb(220, 220, 220);
+  opacity: 0.5;
+}
+.cardRow .linkButton:hover {
+  color: rgb(220, 220, 220);
+  opacity: 0.5;
+}
+.linkButton a {
+  font-size: 16px;
+}
+.gitButton i {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1185px) {
+  .cardRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+}

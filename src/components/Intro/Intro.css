@@ -1,0 +1,97 @@
+.infoText {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.introGrid {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  margin: 10px 9% 10px;
+  padding: 20px;
+}
+h1 {
+  margin-top: 0;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+  max-width: 250px;
+  height: 285px;
+}
+.imgDiv {
+  justify-self: flex-end;
+}
+.infoText p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.learnMore {
+  background: black;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.learnMore:hover {
+  color: rgb(220, 220, 220);
+  opacity: 0.5;
+}
+.contactButton {
+  background: white;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.contactButton:hover {
+  background: black;
+  color: white;
+}
+.introGrid a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.learnMore a {
+  color: white;
+}
+.contactButton a {
+  color: black;
+}
+.infoHeader h1 {
+  font-size: 35px;
+  line-height: 50px;
+}
+
+@media only screen and (max-width: 923px) {
+  .introGrid {
+    grid-template-columns: 350px 1fr;
+  }
+}
+@media only screen and (max-width: 834px) {
+  .introGrid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .imgDiv {
+    grid-row: 1 / 2;
+    justify-self: center;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .introGrid {
+    margin: 10px 0 10px;
+  }
+  .infoText {
+    text-align: center;
+  }
+}
