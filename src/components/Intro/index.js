@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import Button from '../Button'
-import pic from '../../pic.png'
+import pic from '../../pic.svg'
 
 export default function Intro(props) {
   return (
