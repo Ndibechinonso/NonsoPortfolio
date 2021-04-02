@@ -46,11 +46,28 @@
     grid-template-columns: auto;
     justify-items: center;
     justify-content: center;
+    gap: 20px;
   }
+  .contact {
+    justify-self: flex-end;
+  }
+  .portfolio{
+    justify-self: center;
+  }
+
+
 }
 
 @media only screen and (max-width: 500px) {
   .navbar {
     margin: 10px 0 10px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .links {
+ 
+    grid-template-columns: repeat(3, 90px);
+   
   }
 }

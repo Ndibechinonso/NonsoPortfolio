@@ -51,6 +51,26 @@ footer a:hover {
 @media only screen and (max-width: 400px) {
     .footerContainer {
         margin: 0 7%;
-  
       }
+      .footerContainer p{
+       text-align: center;
+      }
+      .footerContainer {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+      }
+}
+@media only screen and (max-width: 335px) {
+
+  .footerContainer p {
+    font-size: 16px;
+    
+  }
+  .footerContainer span {
+    font-weight: 500;
+  }
+  .footerContainer {
+    margin: 0;
+  }
 }

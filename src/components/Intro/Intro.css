@@ -86,12 +86,35 @@ img {
     justify-self: center;
     margin-bottom: 20px;
   }
+  .infoHeader, .infoText {
+    text-align: center;
+  }
+  .infoText{
+    margin: auto;
+  }
+  .infoButtons{display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
 }
 @media only screen and (max-width: 500px) {
   .introGrid {
     margin: 10px 0 10px;
   }
-  .infoText {
-    text-align: center;
+}
+@media only screen and (max-width: 340px) {
+  .introGrid {
+    margin: 10px 0 10px;
+  }
+
+  .contactButton {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 5px;
+  }
+  .learnMore {
+    
+    font-size: 16px;
+    padding: 12px 5px;
   }
 }
