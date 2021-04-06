@@ -6,7 +6,7 @@
   bottom: 100px;
   justify-content: center;
 }
-.cardFlex:hover i {
+.gitButton:hover i {
   color: rgb(220, 220, 220);
   opacity: 0.5;
 }
