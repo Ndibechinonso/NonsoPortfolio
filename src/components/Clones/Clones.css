@@ -1,0 +1,55 @@
+.clones{
+    margin: 0 13% 10px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.cloneCardContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    margin-top: 30px;
+    gap: 10px;
+row-gap: 30px;
+}
+
+
+img{
+    width: 100%;
+    object-fit: contain;
+}
+.cardFlex h2{
+margin-bottom: 30px;
+}
+.cardFlex a{
+    text-decoration: none;
+
+}
+.clones a:hover i {
+    color: rgb(220, 220, 220);
+    opacity: 0.5;
+  }
+  .clones .linkButton:hover {
+    color: rgb(220, 220, 220);
+    opacity: 0.5;
+  }
+
+
+  @media only screen and (max-width: 1185px) {
+    .cloneCardContainer {
+      display: grid;
+      grid-template-columns: auto auto;
+      justify-content: center;
+      gap: 20px;
+    
+    }
+}
+@media only screen and (max-width: 700px) {
+    .cloneCardContainer {
+  
+      grid-template-columns: auto;
+     
+    
+    }
+}

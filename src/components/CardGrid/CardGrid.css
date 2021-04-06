@@ -6,6 +6,10 @@
   bottom: 100px;
   justify-content: center;
 }
+.cardFlex:hover i {
+  color: rgb(220, 220, 220);
+  opacity: 0.5;
+}
 @media only screen and (max-width: 750px) {
   .cardsDiv {
     grid-template-columns: auto;

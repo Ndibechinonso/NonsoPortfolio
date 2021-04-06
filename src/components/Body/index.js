@@ -6,6 +6,7 @@ import CardGrid from '../CardGrid'
 import Portfolio from '../Portfolio'
 import Footer from '../Footer';
 import Animation from '../Animation'
+import Clones from '../Clones'
 const Body = (props) => {
     return (
         <div>
@@ -15,6 +16,7 @@ const Body = (props) => {
             <About />
             <CardGrid />
             <Portfolio />
+            <Clones />
             <Footer />
         </div>
     )

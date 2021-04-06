@@ -19,6 +19,9 @@ export default function Card(props) {
           </div>
         );
       })}
+      <div class='certDiv'>
+        <h3>{props.certification}</h3>
+      </div>
       <div className='buttonRow'>
         <div>{props.button}</div>
         <div>{props.button2}</div></div>

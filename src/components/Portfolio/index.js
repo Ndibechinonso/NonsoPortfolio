@@ -1,10 +1,9 @@
-import React from 'react';
+import React from 'react'
 import Card from '../Card'
 import './Portfolio.css'
-import { STACKS } from "../Data";
+import { STACKS } from "../Data"
 import Button from '../Button'
 import GitButton from '../GitButton'
-
 
 export default function Portfolio(props) {
     return (
