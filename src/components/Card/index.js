@@ -4,7 +4,7 @@ import './Card.css'
 
 export default function Card(props) {
   return (
-    <div className='cardFlex'>
+    <div data-aos={props.anim} className='cardFlex'>
       <div className='iconClass'><i className={props.link}></i></div>
       <h2>{props.header}</h2>
       <p>{props.text}</p>
@@ -19,7 +19,7 @@ export default function Card(props) {
           </div>
         );
       })}
-      <div class='certDiv'>
+      <div className='certDiv'>
         <h3>{props.certification}</h3>
       </div>
       <div className='buttonRow'>

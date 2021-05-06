@@ -4,8 +4,8 @@ import './CloneCard.css'
 
 const CloneCard = (props) =>{
 return(
-    <div className='cardFlex'>
-<img src={props.link}></img>
+    <div data-aos={props.anim} className='cardFlex'>
+<img src={props.link} alt=''></img>
 <h2>{props.header}</h2>
 
 <h3>{props.language}</h3>

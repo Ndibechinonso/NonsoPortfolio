@@ -11,6 +11,11 @@ footer {
   gap: 25px;
   font-size: 22px;
 }
+.socialLinks i:hover {
+    transform: rotate(45deg);
+    transition: all 0.25s ease-in-out;
+  }
+
 .footerContainer {
   display: flex;
   flex-direction: row;
@@ -21,6 +26,7 @@ footer {
   font-size: 18px;
   font-weight: 300;
 }
+
 .footerContainer span {
   font-weight: 600;
 }

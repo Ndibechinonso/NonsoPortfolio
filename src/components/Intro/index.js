@@ -3,9 +3,12 @@ import './Intro.css'
 import Button from '../Button'
 import nonso from '../../nonso.jpg'
 
+
 export default function Intro(props) {
+
+
   return (
-    <div className='introGrid'>
+    <div  className='introGrid'>
       <div className='infoText'>
         <div className='infoHeader'>
           <h1> Front-End Engineer and Digital Artist.</h1>
@@ -18,7 +21,7 @@ export default function Intro(props) {
           <Button className='contactButton' text='Get In Touch' link='#footer' />
         </div>
       </div>
-      <div className='imgDiv'><img src={nonso} /></div>
+      <div className='imgDiv'><img src={nonso} alt='nonso'/></div>
     </div>
   )
 }
