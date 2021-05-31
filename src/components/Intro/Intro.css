@@ -6,27 +6,33 @@
 .introGrid {
   display: grid;
   grid-template-columns: 380px 1fr;
-  margin: 10px 9% 10px;
+  margin: 100px 9% 10px;
   padding: 20px;
 }
-h1 {
+/* h1 {
   margin-top: 0;
-}
+} */
 img {
-  width: 100%;
   object-fit: contain;
-  max-width: 250px;
-  height: 285px;
+ 
 }
 .imgDiv {
   justify-self: flex-end;
+  z-index: -1;
+}
+.frame{
+  width: 320px;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 100%
 }
 .infoText p {
   font-size: 18px;
   margin-bottom: 20px;
   margin-top: 20px;
   color: rgba(0, 0, 0, 0.7);
-  padding: 10px;
+ 
   margin-bottom: 40px;
 }
 .learnMore {
@@ -71,15 +77,16 @@ img {
   line-height: 50px;
 }
 
-@media only screen and (max-width: 923px) {
+/* @media only screen and (max-width: 923px) {
   .introGrid {
     grid-template-columns: 350px 1fr;
   }
-}
+} */
 @media only screen and (max-width: 834px) {
   .introGrid {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
+    margin-top: 150px;
   }
   .imgDiv {
     grid-row: 1 / 2;
@@ -99,12 +106,12 @@ img {
 }
 @media only screen and (max-width: 500px) {
   .introGrid {
-    margin: 10px 0 10px;
+    margin: 150px 0 10px;
   }
 }
 @media only screen and (max-width: 340px) {
   .introGrid {
-    margin: 10px 0 10px;
+    margin: 150px 0 10px;
   }
 
   .contactButton {
@@ -116,5 +123,10 @@ img {
     
     font-size: 16px;
     padding: 12px 5px;
+  }
+  .frame{
+    width: 250px;
+    height: 260px;
+  
   }
 }

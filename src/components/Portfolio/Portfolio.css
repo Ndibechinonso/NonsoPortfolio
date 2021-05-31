@@ -3,9 +3,16 @@
   padding: 20px;
 }
 .portfolioHeader {
-  text-align: center;
   font-size: 30px;
   margin-bottom: 30px;
+  border-bottom: 2px solid #000000;
+  width: 166px;
+}
+.portfolioDiv {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
 }
 h3 {
   font-size: 24px;
@@ -16,7 +23,7 @@ h3 {
 h4 {
   font-size: 20px;
 }
-h5 {
+.portfolioContainer h5 {
   font-size: 16px;
   margin-bottom: 100px;
 }
@@ -67,7 +74,7 @@ h5 {
   font-size: 24px;
   font-weight: 500;
 }
-.currentProject{
+.currentProject {
   margin-top: 60px;
 }
 

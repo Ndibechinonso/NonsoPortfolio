@@ -1,7 +1,7 @@
 import React from 'react'
 import './Intro.css'
 import Button from '../Button'
-import nonso from '../../nonso.jpg'
+import nonso from '../../Assets/nonso.jpg'
 
 
 export default function Intro(props) {
@@ -21,7 +21,7 @@ export default function Intro(props) {
           <Button className='contactButton' text='Get In Touch' link='#footer' />
         </div>
       </div>
-      <div className='imgDiv'><img src={nonso} alt='nonso'/></div>
+    <div className='imgDiv'> <div className='frame'><img src={nonso} alt='nonso'/></div></div> 
     </div>
   )
 }
