@@ -28,13 +28,12 @@ height: 72px;
   z-index: 1;
   background-color: white;
   margin-left: 0;
-
   width: 100vw;
   
 }
 .links {
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: 70px 100px 100px;
   font-weight: 600;
   font-size: 16px;
 align-content: center;
