@@ -11,7 +11,7 @@ const Footer = (props) => {
                     <li><a href='https://twitter.com/pavlovpiper' target="_blank" rel="noopener"><i className="fab fa-twitter"></i></a></li>
                     <li><a href='https://linkedin.com/in/ndibechinonso' target="_blank" rel="noopener"><i className="fab fa-linkedin-in"></i></a></li>
                     <li><a href='https://github.com/Ndibechinonso' target="_blank" rel="noopener"><i className="fab fa-github"></i></a></li>
-                    <li><a href="mailto:edwardndibe@yahoo.com?subject = Feedback&body = Message"><i className="fas fa-at"></i></a></li>
+                    <li><a href="mailto:edwardndibe@gmail.com?subject = Feedback&body = Message"><i className="fas fa-at"></i></a></li>
                 </ul>
             </div>
         </footer>
