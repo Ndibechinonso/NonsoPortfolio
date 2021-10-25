@@ -58,7 +58,6 @@ border-bottom: 1px solid #000000;
 export default function Navbar(props) {
     
     const [menuOpen, setMenuOpen] = useState(false);
-    console.log(menuOpen)
     function setMenuState(){
        if(!menuOpen) {setMenuOpen(true)}
        else{
