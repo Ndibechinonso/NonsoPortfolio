@@ -8,7 +8,7 @@ export default function Intro(props) {
 
 
   return (
-    <div  className='introGrid'>
+    <div  className='introGrid' id='intro'>
       <div className='infoText'>
         <div className='infoHeader'>
           <h1> Front-End Engineer and Digital Artist.</h1>
