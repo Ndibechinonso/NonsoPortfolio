@@ -76,7 +76,7 @@ export default function Navbar(props) {
                     </div>                   
             </div>
         <StyledHamburgerMenu menuOpen={menuOpen}>
-           <div className='mobile-links'><div className='about'><a href='#intro'>HOME</a></div> <div className='about'><a href='#anime'>ABOUT</a></div> <div className='portfolio'><a href='#portfolio'>PORTFOLIO</a></div><div className='contact'><a href='#footer'>CONTACT</a></div> </div>
+           <div className='mobile-links'><div className='about'><a href='#intro'  onClick={setMenuState}>HOME</a></div> <div className='about'><a href='#anime'  onClick={setMenuState}>ABOUT</a></div> <div className='portfolio'><a href='#portfolio'  onClick={setMenuState}>PORTFOLIO</a></div><div className='contact'><a href='#footer'  onClick={setMenuState}>CONTACT</a></div> </div>
           </StyledHamburgerMenu>
              </div>
     )
