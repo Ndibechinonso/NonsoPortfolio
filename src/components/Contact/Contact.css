@@ -81,7 +81,7 @@
 @media screen and (max-width: 600px) {
   .formDiv input,
   .formDiv textarea {
-    width: 300px;
+    width: 342px;
   }
   form {
     width: 340px;
@@ -93,7 +93,7 @@
 @media screen and (max-width: 350px) {
   .formDiv input,
   .formDiv textarea {
-    max-width: 210px;
+    max-width: 250px;
   }
   form,
   .confirmationDiv {

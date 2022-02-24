@@ -4,15 +4,20 @@ const TOOLS =
 
 const SOFTTOOLS =
     [{
-        language: 'VSCode'
-    }, {
-        language: 'GitHub'
-    }, {
-        language: 'RegEx'
-    }, {
-        language: 'BootStrap'
+        language: 'VSCode, GitHub'
+    }, 
+    {
+        language: 'BootStrap, RegEx'
     }]
+
+    const DEVTOOLS =
+    [{
+        language: 'ExpressJs'
+    }, {
+        language: 'Mongoose'
+    }]
+
 
 const STACKS = [{ language: '' }]
 
-export { TOOLS, SOFTTOOLS, STACKS }
+export { TOOLS, SOFTTOOLS, DEVTOOLS, STACKS}

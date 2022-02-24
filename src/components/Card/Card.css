@@ -35,10 +35,11 @@
 .buttonRow {
   display: flex;
   flex-direction: row;
+  gap: 5px;
   margin: auto;
   align-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-bottom: 0;
 }
 .cardFlex li {
   color: rgba(0, 0, 0, 0.7);
@@ -48,4 +49,5 @@ li {
 }
 .certDiv {
   margin-top: 20px;
+  margin-bottom: 20px;
 }

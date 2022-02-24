@@ -5,8 +5,8 @@
 }
 .introGrid {
   display: grid;
-  grid-template-columns: 380px 1fr;
-  margin: 100px 9% 10px;
+  grid-template-columns: 2fr 1fr;
+  margin: 300px 9% 10px;
   padding: 20px;
 }
 /* h1 {
@@ -73,8 +73,12 @@ img {
   color: black;
 }
 .infoHeader h1 {
-  font-size: 35px;
+  font-size: 48px;
   line-height: 50px;
+}
+.infoButtons{
+  margin-top: 50px;
+
 }
 
 /* @media only screen and (max-width: 923px) {
@@ -99,7 +103,8 @@ img {
   .infoText{
     margin: auto;
   }
-  .infoButtons{display: flex;
+  .infoButtons{
+  display: flex;
   flex-direction: row;
   justify-content: center;
   }

@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'
-import { NavLink } from "react-router-dom";
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 
 const StyledHamburger = styled.div`
