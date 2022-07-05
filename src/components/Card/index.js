@@ -7,19 +7,20 @@ export default function Card(props) {
       <div className="iconClass">
         <i className={props.link}></i>
       </div>
-      <h2>{props.header}</h2>
-      <p>{props.text}</p>
+      <h2 style={{height: "70px"}}>{props.header}</h2>
+      <p style={{height: "157px"}}>{props.text}</p>
       <h3>{props.language}</h3>
-      <p>{props.languages}</p>
+      <p style={{height: "70px"}}>{props.languages}</p>
 
       <h3>{props.tool}</h3>
+      {props.tasks ? <div style={{height: "50px"}}>
       {props.tasks.map((data) => {
         return (
-          <div key={data.language}>
+          <div key={data.language} >
             <li>{data.language}</li>
           </div>
         );
-      })}
+      }) }</div> : null }
       <div className="certDiv">
         <h3>{props.certification}</h3>
       </div>

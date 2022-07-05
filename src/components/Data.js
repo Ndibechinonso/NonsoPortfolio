@@ -18,6 +18,5 @@ const SOFTTOOLS =
     }]
 
 
-const STACKS = [{ language: '' }]
 
-export { TOOLS, SOFTTOOLS, DEVTOOLS, STACKS}
+export { TOOLS, SOFTTOOLS, DEVTOOLS}

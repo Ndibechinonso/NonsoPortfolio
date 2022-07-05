@@ -11,7 +11,7 @@ export default function Intro(props) {
     <div  className='introGrid' id='intro'>
       <div className='infoText'>
         <div className='infoHeader'>
-          <h1>Software Developer and Digital Artist.</h1>
+          <h1>Software Developer</h1>
         </div>
         <div className='infoDesc'>
           <p>Hello, I'm Nonso - A Software Developer with an expertise in Frontend Engineering and Development. I love learning and experimenting different stacks. I love writing clean codes with a component based orientation</p>

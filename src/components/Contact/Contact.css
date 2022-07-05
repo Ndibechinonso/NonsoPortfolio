@@ -15,9 +15,10 @@
   border-bottom: 2px solid #000000;
   width: 150px;
 }
-.formDiv h5 {
+.formDiv h4 {
   margin: 20px;
   text-align: center;
+  color: #61677C;
 }
 .formDiv input {
   background-color: #000000;

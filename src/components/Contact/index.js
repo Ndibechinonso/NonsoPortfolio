@@ -55,7 +55,7 @@ export default function Contact(props) {
             <div>
                 <form onSubmit={handleSubmit}>
                     <div className='centerDiv'> <h2>CONTACT</h2></div>
-                    <h5> Have a question or want to work together?</h5>
+                    <h4> Have a question or want to work together?</h4>
                     <div className='inputDiv'>
                         <div data-aos="flip-left">   <div className='inputGroup'>
                             {errors.name ? <div className='error'>{errors.name}</div> : null}
