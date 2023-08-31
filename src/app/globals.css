@@ -116,7 +116,7 @@ display: inline !important;
   }
 }
 .hero_arrow {
-  animation: jumpInfinite 3s infinite;
+  animation: jumpInfinite 5s infinite;
 }
 
 ::-webkit-scrollbar {
