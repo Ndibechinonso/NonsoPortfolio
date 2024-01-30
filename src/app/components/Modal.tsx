@@ -18,6 +18,8 @@ const Modal = ({
   description,
   url,
   figma,
+  github,
+  stacks,
   closeModal,
 }: ModalProps) => {
   return (
@@ -37,15 +39,16 @@ const Modal = ({
           </div>
           <div className="flex flex-col modal_body text-center h-[90%] p-4 md:p-10">
             <h2 className="text-2xl py-4">{name}</h2>
-            <p className="text-start text-xl">{description}</p>
+            <p className="text-center text-xl mb-4">{description}</p>
+            <p className="text-xl">Built with {stacks.toString()}</p>
             <div className="flex flex-row justify-between mt-auto mb-4">
-              <GitButton
+             {(figma || github) && <GitButton
                 href="pppp"
                 className="bg-vantaBlack text-white rounded-[5px] px-[30px] py-[15px]"
                 title=""
-                link={figma}
+                link={figma || github}
                 icon="figma"
-              />
+              />}
               <GitButton
                 href="jjjj"
                 className="bg-vantaBlack text-white rounded-[5px] px-[30px] py-[15px]"

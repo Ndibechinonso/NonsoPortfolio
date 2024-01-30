@@ -47,17 +47,7 @@ const WORKEXPERIENCE = [
   },
 ];
 const PROJECTS = [
-  {
-    name: "PTENHub",
-    description:
-      "PTENHub is a full stack app I am currently building for a client in the UK.",
-    type: "Web App",
-    img: "/assets/projects/ptenhub.png",
-    url: "",
-    github: "",
-    figma: "",
-    stacks: "NextJs, TailwindCSS, MongoDB",
-  },
+
   {
     name: "Confam Money Website",
     description:
@@ -94,6 +84,17 @@ const PROJECTS = [
       "https://www.figma.com/file/ZLn1dvei35RylzFtbQbBp3/Confam-Money-Project?node-id=1%3A7&t=VqVh6feeQkb7sXRN-0",
   },
   {
+    name: "Nexus Xpress Hotel",
+    description:
+      "Nexus Hotel, Your Home Away From Home! Discover a world of luxury, comfort, and impeccable service at Nexus Hotel. Nestled in the heart of Abuja",
+    type: "Website",
+    img: "/assets/projects/nexusHotel.png",
+    url: "https://nexusxpresshotel.com/",
+    github: "",
+    figma: "",
+    stacks: "ReactJs, TailwindCSS",
+  },
+  {
     name: "Nemitt Website",
     description:
       "Nemitt is an indigenous pharmaceutical company engaged in wholesales of Pharmaceutical products. The company officially started operations in April 1999.",
@@ -104,6 +105,17 @@ const PROJECTS = [
     figma:
       "https://www.figma.com/file/AGTorInpc5jlcVRbwiKDg1/Nemitt-Pharmaceuticals?node-id=614%3A3386",
     stacks: "NextJs, TailwindCSS",
+  },
+  {
+    name: "PTENHub",
+    description:
+      "PTENHub is a full stack app I am currently building for a client in the UK.",
+    type: "Web App",
+    img: "/assets/projects/ptenhub.png",
+    url: "",
+    github: "",
+    figma: "",
+    stacks: "NextJs, TailwindCSS, MongoDB",
   },
   {
     name: "Deezify",
