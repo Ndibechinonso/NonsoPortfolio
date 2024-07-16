@@ -11,7 +11,7 @@ export default function HeroSection() {
       className="relative h-screen w-screen bg-vantaBlack hero_section"
     >
       <a
-        href={"assets/Ndibe_Chinonso_CV.pdf"}
+        href={"assets/Ndibe_Edward_CV.pdf"}
         download
         target="blank"
         rel="noopener noreferrer"
