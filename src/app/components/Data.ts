@@ -55,8 +55,7 @@ const PROJECTS = [
     img: "/assets/projects/cealed.png",
     url: "https://cealed.co/",
     github: "",
-    figma:
-      "",
+    figma: "",
     stacks: "ReactJs, Typescript, TailwindCSS",
   },
   {
@@ -88,7 +87,7 @@ const PROJECTS = [
       "Confam Money is a secure and reliable third party that holds and regualates payments of funds required for both buyers and seller involved in a given transaction.",
     type: "Web App",
     img: "/assets/projects/confam_website.png",
-    url: "confam-website.vercel.app",
+    url: "https://confam-website.vercel.app/",
     github: "",
     figma:
       "https://www.figma.com/file/ZLn1dvei35RylzFtbQbBp3/Confam-Money-Project?node-id=1%3A7&t=VqVh6feeQkb7sXRN-0",
