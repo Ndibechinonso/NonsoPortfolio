@@ -23,27 +23,27 @@ const WORKEXPERIENCE = [
   {
     company: "Sterling Bank PLC",
     jobRole: "Frontend Engineer",
-    period: "12-2021 till date",
+    period: "12/2021 till date",
   },
   {
     company: "Stutern",
     jobRole: "Software Development Tutor / Student Mentor",
-    period: "10-2021 till date",
+    period: "10/2020 - 11/2021",
   },
   {
     company: "Pagefly",
     jobRole: "Frontline Support",
-    period: "10/2021 till date",
-  },
-  {
-    company: "Reskill Americans",
-    jobRole: "Software Development Tutor",
-    period: "10/2021 - 03/2023",
+    period: "10/2021 - 11/2022",
   },
   {
     company: "Quabbly",
     jobRole: "Frontend Engineer",
-    period: "07/2021 - 10/2021",
+    period: "01/2019 - 10/2021",
+  },
+  {
+    company: "Reskill Americans",
+    jobRole: "Software Development Tutor",
+    period: "01/2018 - 03/2019",
   },
 ];
 const PROJECTS = [
