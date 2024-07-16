@@ -47,41 +47,17 @@ const WORKEXPERIENCE = [
   },
 ];
 const PROJECTS = [
-
   {
-    name: "Confam Money Website",
+    name: "Cealed",
     description:
-      "Confam Money is a secure and reliable third party that holds and regualates payments of funds required for both buyers and seller involved in a given transaction.",
-    type: "Website",
-    img: "/assets/projects/confam_website.png",
-    url: "https://www.confammoney.com/",
-    github: "",
-    figma:
-      "https://www.figma.com/file/ZLn1dvei35RylzFtbQbBp3/Confam-Money-Project?node-id=1%3A7&t=VqVh6feeQkb7sXRN-0",
-    stacks: "NextJs, TailwindCSS",
-  },
-  {
-    name: "Confam Money Seller",
-    description:
-      "Confam Money is a secure and reliable third party that holds and regualates payments of funds required for both buyers and seller involved in a given transaction.",
+      "Cealed offers you simple solutions to complex privacy processes.",
     type: "Web App",
-    img: "/assets/projects/confam_seller.png",
-    url: "https://seller.confammoney.com/signup",
+    img: "/assets/projects/cealed.png",
+    url: "https://cealed.co/",
     github: "",
     figma:
-      "https://www.figma.com/file/ZLn1dvei35RylzFtbQbBp3/Confam-Money-Project?node-id=1%3A7&t=VqVh6feeQkb7sXRN-0",
-    stacks: "ReactJs, Redux, SCSS",
-  },
-  {
-    name: "Confam Money Buyer",
-    description:
-      "Confam Money is a secure and reliable third party that holds and regualates payments of funds required for both buyers and seller involved in a given transaction.",
-    type: "Web App",
-    img: "/assets/projects/confam_buyer.png",
-    url: "https://buyer.confammoney.com/signin",
-    github: "",
-    figma:
-      "https://www.figma.com/file/ZLn1dvei35RylzFtbQbBp3/Confam-Money-Project?node-id=1%3A7&t=VqVh6feeQkb7sXRN-0",
+      "",
+    stacks: "ReactJs, Typescript, TailwindCSS",
   },
   {
     name: "Nexus Xpress Hotel",
@@ -104,6 +80,18 @@ const PROJECTS = [
     github: "",
     figma:
       "https://www.figma.com/file/AGTorInpc5jlcVRbwiKDg1/Nemitt-Pharmaceuticals?node-id=614%3A3386",
+    stacks: "NextJs, TailwindCSS",
+  },
+  {
+    name: "Confam Money Website",
+    description:
+      "Confam Money is a secure and reliable third party that holds and regualates payments of funds required for both buyers and seller involved in a given transaction.",
+    type: "Web App",
+    img: "/assets/projects/confam_website.png",
+    url: "confam-website.vercel.app",
+    github: "",
+    figma:
+      "https://www.figma.com/file/ZLn1dvei35RylzFtbQbBp3/Confam-Money-Project?node-id=1%3A7&t=VqVh6feeQkb7sXRN-0",
     stacks: "NextJs, TailwindCSS",
   },
   {
