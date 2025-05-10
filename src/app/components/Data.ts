@@ -59,6 +59,17 @@ const PROJECTS = [
     stacks: "ReactJs, Typescript, TailwindCSS",
   },
   {
+    name: "Uwana Energy",
+    description:
+      "Uwana Energy is a web application designed to educate users about solar energy solutions while offering tools to calculate, customize and meet their energy needs",
+    type: "Web App",
+    img: "/assets/projects/uwana_homepage.png",
+    url: "https://uwanaconnect.com/",
+    github: "",
+    figma: "",
+    stacks: "Nextjs, Typescript, TailwindCSS",
+  },
+  {
     name: "Nexus Xpress Hotel",
     description:
       "Nexus Hotel, Your Home Away From Home! Discover a world of luxury, comfort, and impeccable service at Nexus Hotel. Nestled in the heart of Abuja",
@@ -67,7 +78,7 @@ const PROJECTS = [
     url: "https://nexusxpresshotel.com/",
     github: "",
     figma: "",
-    stacks: "ReactJs, TailwindCSS",
+    stacks: "ReactJs, Typescript, TailwindCSS",
   },
   {
     name: "Nemitt Website",
@@ -116,17 +127,17 @@ const PROJECTS = [
       "https://www.figma.com/file/TAdAyR4OMqdfKfeDQNUVBU/Inter-track?type=design&node-id=90-956&mode=design&t=dveq7NZrbgiofn9K-0",
     stacks: "NextJs, TailwindCSS, MongoDB",
   },
-  {
-    name: "Budget Tracker",
-    description:
-      "Project budget tracking enables you to monitor how much of your budget has been spent over time, to see how much is remaining and course-correct.",
-    type: "Web App",
-    img: "/assets/projects/budget_tracker.png",
-    url: "https://simplearithcalculator.netlify.app/",
-    github: "https://github.com/Ndibechinonso/Budget-tracker.git",
-    figma: "",
-    stacks: "HTML, CSS, JavaScript",
-  },
+  // {
+  //   name: "Budget Tracker",
+  //   description:
+  //     "Project budget tracking enables you to monitor how much of your budget has been spent over time, to see how much is remaining and course-correct.",
+  //   type: "Web App",
+  //   img: "/assets/projects/budget_tracker.png",
+  //   url: "https://simplearithcalculator.netlify.app/",
+  //   github: "https://github.com/Ndibechinonso/Budget-tracker.git",
+  //   figma: "",
+  //   stacks: "HTML, CSS, JavaScript",
+  // },
   {
     name: "Unsplash Image API",
     description: "Search for your favorite images using Unsplash's API ",
@@ -137,28 +148,18 @@ const PROJECTS = [
     figma: "",
     stacks: "HTML, CSS, JavaScript",
   },
-  {
-    name: "Simple Calculator",
-    description:
-      "Allows you perform arithmetic operations on numbers. Operations like addition, subtraction, multiplication, division and percentage.",
-    type: "Web App",
-    img: "/assets/projects/calculator.png",
-    url: "https://simplearithcalculator.netlify.app/",
-    github: "",
-    figma: "",
-    stacks: "HTML, CSS, JavaScript",
-  },
-  {
-    name: "Distance Converter",
-    description:
-      "A simple converter which allows you convert units of length. Simply enter the units you have and press convert. Distance Length converter will do the rest!.",
-    type: "Web App",
-    img: "/assets/projects/distance_converter.png",
-    url: "https://distance-coverter.netlify.app/",
-    github: "https://github.com/Ndibechinonso/Distance-converter.git",
-    figma: "",
-    stacks: "HTML, CSS, JavaScript",
-  },
+
+  // {
+  //   name: "Distance Converter",
+  //   description:
+  //     "A simple converter which allows you convert units of length. Simply enter the units you have and press convert. Distance Length converter will do the rest!.",
+  //   type: "Web App",
+  //   img: "/assets/projects/distance_converter.png",
+  //   url: "https://distance-coverter.netlify.app/",
+  //   github: "https://github.com/Ndibechinonso/Distance-converter.git",
+  //   figma: "",
+  //   stacks: "HTML, CSS, JavaScript",
+  // },
   {
     name: "Pinterest Clone",
     description: "A clone of Pinterest Website",
